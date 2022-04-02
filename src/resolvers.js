@@ -31,7 +31,14 @@ module.exports = {
           views: 10,
         }
       ]
-    }
+    },
+    role: () => 'ADMIN',
+    settings: () => ({
+      id: '1',
+      user: 'John Doe',
+      emailNotifications: true,
+      pushNotifications: true,
+    })
   },
   Post: {
     author: (parent, args, ctx, info) => {
