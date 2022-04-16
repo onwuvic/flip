@@ -7,6 +7,7 @@ const server = new ApolloServer({
   typeDefs,
   resolvers,
   context({ req, connection }) {
+    console.log('------->', connection)
     const context = { ...db }
     return { ...context }
   },
