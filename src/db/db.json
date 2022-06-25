@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "email": "admin@member.com",
+      "password": "password",
+      "role": "ADMIN",
+      "verified": false,
+      "avatar": "http",
+      "createdAt": 1571213104370,
+      "id": "Z2hlvDmLOSRZGebC_Z_aA"
+    },
+    {
+      "email": "member@member.com",
+      "password": "password",
+      "role": "MEMBER",
+      "verified": false,
+      "avatar": "http",
+      "createdAt": 1571205141018,
+      "id": "XUYFfLuWeJWrwPr4TRajF"
+    }
+  ],
+  "posts": [
+     {
+      "message": "halsdasdfasdff",
+      "author": "XUYFfLuWeJWrwPr4TRajF",
+      "createdAt": 1571202992350,
+      "id": "9K4sPrS85aIHr5wOZ_8Zh"
+    },
+    {
+      "message": "halsdasdf asdkfjdsfasdfasdff",
+      "author": "XUYFfLuWeJWrwPr4TRajF",
+      "createdAt": 1571202998970,
+      "id": "swqayRPjSA2BlfnsND6Xd"
+    },
+    {
+      "message": "halsdasdf asdkfjdsf asdf asdasdfasdff",
+      "author": "XUYFfLuWeJWrwPr4TRajF",
+      "createdAt": 1571205095389,
+      "id": "mnDzY_dwoZ41Yz-fmSM_k"
+    },
+    {
+      "message": "new post who dis",
+      "author": "XUYFfLuWeJWrwPr4TRajF",
+      "createdAt": 1571207117764,
+      "id": "Z2hlvDmLOSRZGebC_Z_aA"
+    }
+  ],
+  "settings": [
+    {
+      "user": "XUYFfLuWeJWrwPr4TRajF",
+      "theme": "DARK",
+      "emailNotifications": true,
+      "pushNotifications": true,
+      "createdAt": 1571205141021,
+      "id": "1rokGsQR1KC5gPf6L4ap3"
+    }
+  ]
+}
