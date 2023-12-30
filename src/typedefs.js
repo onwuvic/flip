@@ -7,6 +7,12 @@ module.exports = gql`
     GUEST
   }
 
+  input SignupInput {
+    email: String!
+    password: String!
+    role: Role!
+  }
+
   type User {
     id: ID!
     email: String!
@@ -35,8 +41,17 @@ module.exports = gql`
     pushNotifications: Boolean!
   }
 
+  type AuthUser {
+    token: String!
+    user: User!
+  }
+
   type Query {
     me: User!
     posts: [Post]!
   }
-`
+
+  type Mutation {
+    signup(input: SignupInput!): AuthUser!
+  }
+`;
