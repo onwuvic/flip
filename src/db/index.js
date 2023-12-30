@@ -9,7 +9,7 @@ db.defaults({ posts: [], users: [], settings: [] })
 
 module.exports = {
   models: {
-    Settings: createModel(db, 'settings'),
+    Setting: createModel(db, 'settings'),
     Post: createModel(db, 'posts'),
     User: createModel(db, 'users')
   },
