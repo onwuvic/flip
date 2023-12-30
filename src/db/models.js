@@ -12,7 +12,7 @@ const createModel = (db, table) => ({
       .find(filter)
       .value()
   },
-  findMany() {
+  findMany(filter) {
     if (!filter) {
       return db.get(table)
         .orderBy(['createdAt'], ['desc'])
